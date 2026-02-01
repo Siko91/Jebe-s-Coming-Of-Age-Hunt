@@ -1,5 +1,5 @@
 :: StoryTitle
-The Evil Spirit's Advice
+Jebe's Coming Of Age Hunt
 
 
 :: StoryData
@@ -13,6 +13,8 @@ The Evil Spirit's Advice
 
 
 :: A mockery of a final battle (END) {"position":"4000,300","size":"100,100"}
+// UNFINISHED //
+
 Temur sees that Jebe has no weapons and laughs at him.
 "You only apologize when the alternative is certain death. You are not sincere."
 
@@ -20,6 +22,8 @@ Temur thinks that Jebe is a coward and kills him slowly and painfully.
 
 
 :: A shameful return (END) {"position":"4000,1100","size":"100,100"}
+// UNFINISHED //
+
 
 
 
@@ -101,73 +105,32 @@ The hunt continues.
 
 
 :: Ambush in the Pastures {"position":"3200,250","size":"100,100"}
+// UNFINISHED //
+
 Jebe listens to the spirit of revenge and prepares an ambush. He launches a surprise attack on Temur and injures him badly. Temur and his friends start chasing Jebe through the pastures.
 
 [[Chase through the Pastures]] 
 
 
 :: Approaching the Campfire {"position":"1525,100","size":"100,100"}
+// UNFINISHED //
+
 Jebe spots rising smoke and rides toward it, discovering a small group of 3–4 other boys sharing a fire and roasting small game in the ashen dusk.
 
 [[The Invitation]] 
 
 
-:: BASICS {"position":"200,100","size":"100,100"}
-Lets start with a rough structure plan.
-
-
-In my story, the protagonist is a 16 year old boy named Jebe.
-
-He lives in a magical world, lacking in resources, where surviving is harder each year.
-
-The culture and visuals of the world are roughly themed based on ancient Mongolia (but with ritualistic magic). Basically, horse-riding magicians.
-
-Jebe is participating in a Coming of Age ceremonial hunt, where 50 boys, including him, ride into the Ashen Wastelands and compete on who can catch the biggest prey.
-
-The Ashen Wastelands have a rocky terrain and are full of venomous animals and scary monsters.
-
-While hunting, Jebe is going to be confronted by another boy that wants to use this opportunity to kill him. (They are enemies because of Jebe humiliated the other boy last year.)
-
-
-
-Now the non-linear part:
-
-The reader IS NOT Jebe.
-
-
-
-The reader is a spirit which whispers secret messages into Jebe's ear and tries to influence the boy.
-
-At the start of the story, the reader can choose between:
-
-- A spirit of trickery (trying to trick Jebe into dying or getting crippled)
-- A spirit of sorrow (a spirit full of pain and fear - it wants to keep Jebe alive, even at the cost of Jebe's humiliation and defeat)
-- A spirit of revenge (wants to use Jebe in order to kill another boy that happens to be a descendant of the spirit's enemy)
-
-
-The boy will be familiar with the spirits, but it won't know which spirit is talking to it.
-
-The boy will be cautious whenever it hears a spirit. It will often choose to ignore the words of the spirit.
-
-The boy will never fully trust a spirit.
-
-
-
-On each turn of the story the spirit will have 2 choices:
-
-- Do nothing
-- Whisper a message that matches the type of spirit the reader selected
-
-
-
-
 :: Canyons: Rising Danger {"position":"1850,750","size":"100,100"}
+// UNFINISHED //
+
 Hazards intensify: unstable ledges, sudden rockfalls, venomous cave-dwellers, or the distant roar of a larger beast deeper in.
 
 [[Shadowed Canyons Spirit Intervention Branch]] 
 
 
 :: Chase through the Pastures {"position":"3250,50","size":"100,100"}
+// UNFINISHED //
+
 Jebe sees how Temur and his mounted friends are looking at him and are closing in fast across the open pastures; he spurs his horse into a full gallop to escape.
 
 [[Initial Pursuit & Terrain Hazards]]
@@ -231,12 +194,16 @@ The Ashen Wastelands swallow them whole.
 
 
 :: Entering the Canyons {"position":"1500,750","size":"100,100"}
+// UNFINISHED //
+
 Jebe descends into narrow, shadowed rock passages where sunlight rarely reaches, the air grows colder, and echoes carry strange animal calls.
 
 [[Initial Safety Illusion]] 
 
 
 :: Entering the Hunting Pastures {"position":"2700,200","size":"100,100"}
+// UNFINISHED //
+
 Jebe enters the hunting pastures, ready to look for a new prey. He spends the night hidden behind a large rock.
 
 If Jebe was robbed by the group, he is hungry and needs to hunt for food before hunting for glory.
@@ -249,6 +216,8 @@ If Jebe is badly hurt, add some text about his pain of his wounds. But if Jebe h
 
 
 :: Escape from Temur's Chase {"position":"3400,750","size":"100,100"}
+// UNFINISHED //
+
 If Jebe survives the initial push (health sufficient + effective spirit guidance or luck), he reaches a potential escape: a narrow ravine, hidden dip, or herd of wild horses to lose pursuit; success depends on whisper alignment and trust check.
 
 [[Post-Chase Recovery & Spirit Advice]]
@@ -256,6 +225,8 @@ If Jebe survives the initial push (health sufficient + effective spirit guidance
 
 
 :: Exciled (END) {"position":"4400,600","size":"100,100"}
+// UNFINISHED //
+
 Jebe injured Temur after setting up a trap trying to kill him.
 All of Temur's friends testify of what happened.
 Jebe gets Exciled from the village
@@ -264,6 +235,8 @@ The spirit of revenge is angry at Jebe for failing.
 
 
 :: Exciled from the Village (END) {"position":"4200,600","size":"100,100"}
+// UNFINISHED //
+
 After killing Temur, Jebe gets judged by the village elders.
 They decide to punish him by stripping him of all rights and selling him as a galley slave.
 Jebe survives less than 2 years in excrutiating work and pain.
@@ -272,6 +245,8 @@ And during these 2 years, he keeps hearing how the revenge spirit is proud of hi
 
 
 :: Final Spirit Whisper {"position":"3100,1200","size":"100,100"}
+// UNFINISHED //
+
 As Jebe nears the cliffs, the spirit delivers its urgent final advice: 
 
 sorrow pleads for him to turn back home, 
@@ -348,19 +323,9 @@ Your presenc presses forward.
 [[(TRICKERY) I am the spirit the shaman summoned to bless your hunt. I rode the smoke of the juniper bundle straight to you. I will guide your aim, whisper where the greatest prey hides. Follow me and glory will be yours.|Initial Scouting: Reading the Terrain][$spirit_type to "trickery", $jebe_trust += 1]]
 
 
-:: GEN AI Prompt {"position":"600,100","size":"100,100"}
-It is time to start generating the actual texts and twine logic.
- 
-Here's how we'll do this.
-Step 1 - I post a twine screen short description.
-Step 2 - you generate the text that fits the description
-Step 3 - I approve the text or ask you to go back to step 2
-Step 4 - you generate an image matching that text
- 
-Ready?
-
-
 :: Health-Dependent Catch Risk {"position":"3400,600","size":"100,100"}
+// UNFINISHED //
+
 If Jebe is significantly hurt (jebe_health low), the chase goes bad. The enemies quickly gain on Jebe and surround him.
 [[Temur catches Jebe (END}]]
 
@@ -371,6 +336,8 @@ If Jebe's isn't hurt, then he survives after getting slightly grazed by an arrow
 
 
 :: Hunting Horned Hare in the Pastures {"position":"2875,50","size":"100,100"}
+// UNFINISHED //
+
 Jebe attempts to kill a second horned hare.
 
 If Jebe is robbed (has no weapons) the horned hare has 70% chance to hurt him badly.
@@ -383,6 +350,8 @@ If Jebe is hurt he has 50% chance to catch the hare.
 
 
 :: Hunting for small prey {"position":"3000,50","size":"100,100"}
+// UNFINISHED //
+
 Jebe goes on a hunt for a small animal.
 
 Unless he's fine, he's 10% likely to fail.
@@ -394,13 +363,17 @@ If he's badly hurt, he's 70% likely to fail.
 [[Wandering the Pastures]] 
 
 
-:: If Joins Trustingly {"position":"2025,0","size":"100,100"}
+:: If Joins Trustingly {"position":"2075,25","size":"100,100"}
+// UNFINISHED //
+
 Jebe lowers his guard, shares prey/supplies; night falls peacefully at first, but the group betrays him in his sleep, stealing everything and abandoning him wounded or bound.
 
 [[Entering the Hunting Pastures]] 
 
 
-:: If Joins Vigilantly {"position":"2025,125","size":"100,100"}
+:: If Joins Vigilantly {"position":"2075,150","size":"100,100"}
+// UNFINISHED //
+
 Jebe stays watchful (perhaps due to prior whispers or innate caution); the boys notice and decide against theft, but when Temur's trail appears the next day, they betray Jebe to Temur out of fear of Temur's powerful father/clan.
 
 They don't break any laws. Instead, they simply abandon Jebe to fight alone.
@@ -410,7 +383,9 @@ Jebe escapes from Temur, but (unless saved by a spirit's warning) gets stabbed a
 [[Entering the Hunting Pastures]] 
 
 
-:: If Refuses to Join {"position":"2000,400","size":"100,100"}
+:: If Refuses to Join {"position":"2000,375","size":"100,100"}
+// UNFINISHED //
+
 Jebe politely declines and leaves;
 
 [[Take a risk->Entering the Canyons]] 
@@ -419,6 +394,8 @@ Jebe politely declines and leaves;
 
 
 :: Initial Pursuit & Terrain Hazards {"position":"3400,300","size":"100,100"}
+// UNFINISHED //
+
 Jebe dodges natural obstacles (gullies, rocky outcrops, sudden dips) while Temur's group shouts taunts and fires warning arrows, narrowing the gap.
 
 [[Spirit Whisper During Flight]]
@@ -426,6 +403,8 @@ Jebe dodges natural obstacles (gullies, rocky outcrops, sudden dips) while Temur
 
 
 :: Initial Safety Illusion {"position":"1700,750","size":"100,100"}
+// UNFINISHED //
+
 For a time Jebe avoids signs of other hunters (including Temur), finding quiet pockets to rest and track elusive small prey in the gloom.
 
 [[Canyons: Rising Danger]] 
@@ -456,6 +435,8 @@ Jebe whispers: "Not far... Through the gully."
 
 
 :: Jebe's Decision on the Invitation {"position":"1825,100","size":"100,100"}
+// UNFINISHED //
+
 Jebe weighs joining; the spirit whispers (type-dependent: trickery urges suspicion or greed, sorrow urges caution/acceptance for survival, revenge pushes to use them against Temur later); Jebe's response branches based on current trust level and player whisper choice.
 
 [[If Joins Trustingly]] 
@@ -466,6 +447,8 @@ Jebe weighs joining; the spirit whispers (type-dependent: trickery urges suspici
 
 
 :: Jebe's life is in Temur's hands (END) {"position":"4250,400","size":"100,100"}
+// UNFINISHED //
+
 Temur sees the thrown weapon and laughs
 "Your life is in my hands now."
 "Yes. I am trusting you with my life now."
@@ -480,6 +463,8 @@ This is the happiest ending that Jabe can hope for.
 
 
 :: Journey to the Nesting Cliffs {"position":"3100,1000","size":"100,100"}
+// UNFINISHED //
+
 Jebe rides across the ash-strewn pastures directly toward the high rocky cliffs known as the likely nesting grounds of the legendary Ghost Raptor, guided by distant sightings of enormous shadows circling overhead.
 
 [[Final Spirit Whisper]]
@@ -487,10 +472,14 @@ Jebe rides across the ash-strewn pastures directly toward the high rocky cliffs 
 
 
 :: Losing against the Ghost Raptor (END) {"position":"4000,1400","size":"100,100"}
+// UNFINISHED //
+
 
 
 
 :: Lucky exit from Canyons {"position":"2400,800","size":"100,100"}
+// UNFINISHED //
+
 Jebe exits the Canyons without getting hurt.
 
 [[Entering the Hunting Pastures]] 
@@ -523,6 +512,8 @@ But the wasteland is still watching.
 
 
 :: One final battle (END) {"position":"4125,350","size":"100,100"}
+// UNFINISHED //
+
 Temur sees Jebe squeezing his weapon and attacks first.
 He screams that Jebe's apology was fake and fights furiously.
 Temur kills Jebe and decapitates the body.
@@ -530,7 +521,7 @@ Temur kills Jebe and decapitates the body.
 
 
 
-:: Phase Conclusion: The Diverging Trails {"position":"1375,450","size":"100,100"}
+:: Phase Conclusion: The Diverging Trails {"position":"1425,550","size":"100,100"}
 <img src="https://siko91.github.io/Jebe-s-Coming-Of-Age-Hunt/assets/images/8.jpg" style="max-width:80%">
 
 The hare is secured to the saddle, a modest but solid start. Jebe wipes sweat and ash from his brow, then urges the mare forward again. The broken rock gives way to a wider stretch of wasteland, and ahead the path splits into three distinct trails.
@@ -635,6 +626,8 @@ He turns the mare left, toward the distant campfire.
 
 
 :: Post-Chase Recovery & Spirit Advice {"position":"3400,875","size":"100,100"}
+// UNFINISHED //
+
 If Jebe escapes the immediate pursuit, he finds brief shelter (e.g., behind a hill or in tall grass); exhausted and possibly wounded, the spirit delivers its final advisory whisper for the phase:
 
 Jebe reacts to the spirit's advice; if trust is low, he ignores it and decides purely on condition: 
@@ -659,114 +652,17 @@ if trust higher, he follows spirit type (leading to trap, apology, or quit attem
 [[The peace offering]]
 
 
-:: STRUCTURE {"position":"400,100","size":"100,100"}
-Here’s a high-level structural plan for your non-linear Twine story. The goal is to create a flexible, replayable flow that feels like a single hunt with rising stakes, while allowing the spirit’s influence (and Jebe’s distrust) to create meaningfully different experiences without forcing a rigid linear path.
-The story is divided into phases rather than fixed chapters. Each phase represents a major stage of the hunt, and the player (spirit) can influence which phase Jebe enters next by succeeding or failing challenges within the current one. Phases can be revisited in limited ways (e.g., Jebe backtracks to safer areas) or skipped entirely if Jebe dies, flees, or wins early. This creates natural non-linearity: different spirit types will push Jebe toward different sequences, and Jebe’s caution means many whispers are ignored or backfire.
-Core Variables Tracked (for branching and endings)
-These are stored as simple Twine variables (e.g., in SugarCube or Chapbook):
-
-spirit_type: "trickery" | "sorrow" | "revenge" (set once at start)
-jebe_trust: 0–10 (starts at 2–3; whispers that help raise it slowly; harmful or suspicious ones lower it)
-jebe_health: 100 → decreases on failure/injury; 0 = death
-jebe_pride: 0–10 (humiliation lowers it; success raises it; sorrow spirit cares about keeping it low but health high)
-prey_score: 0+ (sum of prey caught; biggest single prey also tracked for “biggest” win condition)
-enemy_alive: true/false (starts true; revenge spirit wants false)
-enemy_encountered: 0–3 (how many times they’ve crossed paths; increases tension)
-time_passed: 0–3 (days or major time blocks; hunt ends after 3 or if Jebe returns early)
-
-Overall Phase Structure
-
-# Opening Phase: The Threshold
-Fixed starting point.
-Jebe rides out with the 50 boys. Brief descriptions of the group, the wastelands’ ashen horizon, the ceremonial send-off.
-Reader chooses spirit type (three clear, evocative options with flavor text).
-First whisper opportunity: Jebe hears the voice for the first time. He reacts with suspicion (ignores or questions it).
-Ends when Jebe enters the rocky wastes and separates from the main group (natural divergence).
-Possible early branches: Jebe hears a distant monster roar → decides to scout or hide → first real choice influenced by whisper.
-
-# Early Hunt Phase: Scouting & Small Prey (can be repeated 1–3 times)
-Jebe is alone or in loose sight of a few others. Focus on survival basics: finding water, shelter, tracking small/medium prey (venomous lizards, horned hares, etc.).
-Challenges:
-Environmental hazard (rockslide, poisonous fog, quicksand-like ash pits).
-Minor monster encounter (wolf-like spirit-beast, giant scorpion).
-Chance meeting with a neutral boy (trade info, share prey, or avoid).
-
-# Spirit influence:
-Trickery: whispers to take risks (e.g., “The best prey is always in the most dangerous place”) → likely injury or failure.
-Sorrow: urges caution (“You are not ready for that path; turn back”) → safer but smaller prey, humiliation if others succeed.
-Revenge: points toward signs of the enemy (“That trail leads to the one who wronged you both”).
-
-# Jebe often ignores whispers (especially if trust low), leading to random outcomes or self-preservation.
-Success here raises prey_score modestly; failure lowers health/pride.
-Exit: Jebe either catches a decent small prey (progress) or gets injured and must retreat to a safer area.
-
-# Mid-Hunt Phase: The Rival’s Shadow (triggers 1–3 times, escalating)
-The enemy boy (let’s name him Temur for now) starts actively hunting Jebe instead of prey.
-Encounters build in intensity:
-Level 1: Distant sighting → Jebe hears taunts or sees sabotage (cut water skin, scattered tracks).
-Level 2: Ambush attempt (Temur tries to steal Jebe’s prey or force a fight).
-Level 3: Direct confrontation (knife fight, magical duel, or chase).
-
-# Spirit influence is strongest here:
-Trickery: pushes Jebe to fight recklessly or trust false openings.
-Sorrow: urges Jebe to flee, hide, or surrender pride.
-Revenge: guides Jebe to set traps or strike lethally.
-
-# Jebe’s distrust peaks: even helpful whispers may be rejected if they sound too convenient.
-Outcomes feed into variables: Temur can be killed, crippled, scared off, or left dominant.
-This phase can loop back to Early Hunt if Jebe escapes, or lead directly to Climax.
-
-# Late Hunt Phase: The Great Prey (optional, 1–2 times)
-Jebe tracks a legendary beast: a massive ash-drake, a venomous thunder-horse, or a spectral steppe eagle.
-High-risk, high-reward: success gives massive prey_score boost (likely winner).
-Failure usually means death or crippling injury.
-Spirit influence:
-Trickery: convinces Jebe to attack alone or use forbidden magic (guaranteed failure).
-Sorrow: begs Jebe to abandon the hunt and return home alive (safe ending).
-Revenge: may use the beast as bait to lure Temur into a fatal mistake.
-
-Jebe will only attempt this if pride is high enough (or if desperate).
-
-# Climax & Resolution Phase: Return or Fall
-Triggered by: time runs out (end of day 3), Jebe dies, Jebe kills Temur, Jebe catches legendary prey, or Jebe flees early.
-Multiple convergence points:
-Jebe returns to the tribe with prey → judged on size, but also on how he survived (scars, honor, enemies killed).
-Jebe dies in the wastes → spirit’s “victory” depends on type (trickery celebrates; sorrow mourns; revenge may succeed if Temur also dies).
-Jebe returns crippled/humiliated → sorrow spirit’s bittersweet win.
-Jebe kills Temur → revenge spirit’s triumph; tribe may exile Jebe if it looks like murder.
-
-Final whisper: one last chance to shape the ending (e.g., push Jebe to lie about events, confess, or sacrifice himself).
-Endings (aim for 8–12 distinct ones, grouped by spirit type):
-Trickery: Jebe dies (most common), Jebe crippled and shamed, Jebe kills Temur but dies himself.
-Sorrow: Jebe survives but fails the hunt, returns humiliated but alive, rarely wins modestly.
-Revenge: Jebe kills Temur and survives (best), Jebe kills Temur but is exiled, Jebe fails but Temur dies anyway (e.g., monster attack).
-Rare “neutral” endings if Jebe ignores all whispers and survives on his own.
-
-
-
-Non-Linear Flow Summary (Visualized)
-textOpening → Early Hunt ↔ Mid-Hunt ↔ Late Hunt
-                                ↑                 ↓
-                                └──────┘
-                                         ↓
-                             Climax / Ending
-
-Arrows indicate possible transitions (success/failure/whisper influence).
-Early ↔ Mid loops allow repeated encounters with Temur or repeated small hunts.
-Late Hunt is a high-stakes optional spike that can be reached early (risky) or late (safer but less impressive).
-Spirit type biases which paths Jebe is more likely to take (via whispers), but Jebe’s distrust + randomness ensures unpredictability.
-
-This structure keeps the hunt feeling tense and organic while giving the spirit real agency. It also allows for replayability: players can try to “win” for different spirits or see how far Jebe gets on his own.
-If you want to refine any phase (e.g., specific challenges, variable thresholds, or ending variations), or start outlining the first few passages in Twee format, just say the word!
-
-
 :: Setting up the Lure {"position":"3100,1400","size":"100,100"}
+// UNFINISHED //
+
 Jebe places the corpse of one of his earlier small prey on an exposed rock outcrop, conceals himself in nearby cover, and ensures his horse is safely hidden at a distance to avoid alerting the approaching raptor.
 
 [[The Ghost Raptor's Arrival]]
 
 
 :: Setting up the Swamp Trap {"position":"3900,900","size":"100,100"}
+// UNFINISHED //
+
 The spirit tells Jebe about a shallow swamp nearby. It is very well hidden, but it is ultimately harmless.
 The spirit tells Jebe to leave traces of himself leading through that swamp.
 Then Jebe circles around and hides nearby without leaving traces.
@@ -775,6 +671,8 @@ Then Jebe circles around and hides nearby without leaving traces.
 
 
 :: Shadowed Canyons Spirit Intervention Branch {"position":"2000,750","size":"100,100"}
+// UNFINISHED //
+
 The spirit whispers urgently; sorrow desperately urges Jebe to turn back toward the smoke/team for safety (even if humiliating); trickery offers tempting lies (see below); revenge may stay quiet or subtly guide toward ambush spots for Temur.
 
 If spirit is trickery: whispers of hidden treasure in a side cave (leads toward a mighty beast's lair); Jebe may follow (loses an arm escaping if he enters) or resist.
@@ -787,6 +685,8 @@ Alternatively, the trickery spirit may choose to gain more trust (for a much big
 
 
 :: Spear confrontation with the Ghost Raptor {"position":"3100,1700","size":"100,100"}
+// UNFINISHED //
+
 Jebe advances with spear in hand to finish the grounded raptor; if lucky he delivers the killing blow cleanly, but if unlucky the enraged bird overpowers him in close combat.
 
 50% chance of losing.
@@ -798,6 +698,8 @@ Jebe advances with spear in hand to finish the grounded raptor; if lucky he deli
 
 
 :: Spirit Whisper During Flight {"position":"3400,450","size":"100,100"}
+// UNFINISHED //
+
 The spirit whispers urgently mid-chase; type determines intent (trickery aims for dead-end trap; sorrow/revenge/trickery may try trust-building escape routes); Jebe may listen partially if trust allows.
 
 [[Health-Dependent Catch Risk]]
@@ -805,6 +707,8 @@ The spirit whispers urgently mid-chase; type determines intent (trickery aims fo
 
 
 :: Temur catches Jebe (END\} {"position":"3800,300","size":"100,100"}
+// UNFINISHED //
+
 the chase ends: Temur's group catches Jebe, drags him down, and kills him in a brutal, ritualistic manner.
 
 
@@ -819,6 +723,7 @@ Jebe looses an arrow aimed at the raptor's wing to cripple its flight capability
 
 
 :: The Ghost Raptor's Water Weakness (END) {"position":"4000,1250","size":"100,100"}
+// UNFINISHED //
 
 The massive spectral eagle descends in a silent glide toward the bait; Jebe observes its translucent ash-gray feathers and razor talons while preparing his bow for the critical shot.
 
@@ -834,18 +739,24 @@ Nobody ever finds Jebe's body.
 
 
 :: The Hidden Herb Garden {"position":"2200,1075","size":"100,100"}
+// UNFINISHED //
+
 Spirit gains Jebe's trust by leading him to the herb garden.
 
 [[Towards the Canyon Exit]] 
 
 
 :: The Invitation {"position":"1675,100","size":"100,100"}
+// UNFINISHED //
+
 The boys hail Jebe warmly, offer food and stories of their joint hunt so far, and invite him to join their temporary alliance for safety and better chances.
 
 [[Jebe's Decision on the Invitation]] 
 
 
 :: The Swamp Trap {"position":"4100,900","size":"100,100"}
+// UNFINISHED //
+
 Once Temur and friends try to cross the swamp, their horses move much slower.
 Jebe jumps out from his hiding spot and starts shooting arrows at Temur.
 
@@ -865,13 +776,14 @@ If Temur lives:
 
 
 :: The peace offering {"position":"3700,600","size":"100,100"}
+// UNFINISHED //
+
 Jebe meets Temur without running away.
 Temur is cautious, but agrees to talk.
 Jebe asks for peace. He apologizes for humiliating Temur last year.
 Temur believes that Jebe will change his mind once they go back to the village.
 
 It looks like Temur plans to kill Jebe regardless of the apology.
-
 
 If Jabe has no weapons (if he was robbed)
 [[A mockery of a final battle (END)]]
@@ -884,6 +796,8 @@ if trust is low, Jebe will squeeze his weapon instead.
 
 
 :: Towards the Canyon Exit {"position":"2350,1025","size":"100,100"}
+// UNFINISHED //
+
 Jebe heads to the Canyon exit.
 Spirits have a choice to warn him of danger or to reassure him of safety.
 
@@ -893,18 +807,24 @@ Spirits have a choice to warn him of danger or to reassure him of safety.
 
 
 :: Trickery: Canyon Beast Cave {"position":"2200,875","size":"100,100"}
+// UNFINISHED //
+
 Jebe enters the mighty beast's lair and loses an arm while escaping.
 
 [[Towards the Canyon Exit]] 
 
 
 :: Unlucky exit from Canyons {"position":"2500,900","size":"100,100"}
+// UNFINISHED //
+
 Jebe gets bitten by a venomous snake. The venom is not deadly, but Jebe will suffer a terrible pain for the next 2 days.
 
 [[Entering the Hunting Pastures]] 
 
 
 :: Victorious Return (END) {"position":"4000,1600","size":"100,100"}
+// UNFINISHED //
+
 Jebe kills the Ghost Raptor he claims its feathers or talons as trophy and rides back victorious to the village.
 
 He is the clear winner in the coming of age ceremony.
@@ -914,6 +834,8 @@ But Temur will likely try to attack again, when the time is right. He does not e
 
 
 :: Wandering the Pastures {"position":"2950,250","size":"100,100"}
+// UNFINISHED //
+
 Jebe rides through the Pastures.
 
 There are traces of small prey, which is not worh much in front of the village vhief.
@@ -941,6 +863,8 @@ The spirit of revenge will advise Jebe to save his strength for the enemy and to
 
 
 :: Weakness to Water {"position":"3500,1250","size":"100,100"}
+// UNFINISHED //
+
 Jebe places the corpse of one of his earlier small prey on an exposed rock outcrop, conceals himself in nearby cover, and ensures his horse is safely hidden at a distance to avoid alerting the approaching raptor.
 
 He holds a container of water, instead of his weapon. He's ready to spash the raptor.
@@ -949,6 +873,8 @@ He holds a container of water, instead of his weapon. He's ready to spash the ra
 
 
 :: Winning against the Ghost Raptor {"position":"3500,1700","size":"100,100"}
+// UNFINISHED //
+
 The raptor dies.
 Jebe experiences a vision of all the other hunters that tired to claim its life. Dozens of experienced hunters failed. A few of them even died. But he succeeded.
 He's proud.
